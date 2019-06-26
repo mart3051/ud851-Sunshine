@@ -16,8 +16,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.sunshine">
-
-    <!--TODO (2) Add the INTERNET permission-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--Completed (2) Add the INTERNET permission-->
 
     <application
         android:allowBackup="true"
